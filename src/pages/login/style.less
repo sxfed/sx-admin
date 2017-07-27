@@ -1,0 +1,31 @@
+@import "../../variables";
+
+.login {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url('./login-bg.jpg');
+  background-size: cover;
+  .login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 16px;
+    border-radius: 5px;
+    border: 1px solid @borderColor;
+    background: #fff;
+  }
+  h1 {
+    padding-bottom: 16px;
+    text-align: center;
+  }
+  .error-message {
+    height: 30px;
+    text-align: center;
+    color: red;
+  }
+}
